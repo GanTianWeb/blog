@@ -5,7 +5,7 @@
 3. 如何使用 curl 命令
 
 ### 答:
-1. HTTP 请求包括 
+1. HTTP 请求包括<br />
 1 GET / HTTP/1.1 (动词路径协议/版本) <br />
 2 Host: xiedaimala.com (Key1: value1) <br />
 2 User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36
@@ -24,13 +24,13 @@ Sec-Fetch-Site: none (Key3: value3) <br />
 3<br />
 4 要下载的内容 <br />
 
-3. 如何使用 curl 命令
+3. 如何使用 curl 命令<br />
 1 curl -s -v -H "Frank: xxx" -- "https://www.baidu.com" (-H "Frank: xxx" 可换成其他的"Key：value") <br />
 2 curl -X POST -s -v -H "Frank: xxx" -- "https://www.baidu.com" (使用POST上传) <br />
 3 curl -X POST -d "1234567890" -s -v -H "Frank: xxx" -- "https://www.baidu.com" (使用POST上传的值为1234567890) <br />
 4 了解更多[Linux](https://man.linuxde.net// "Linux") <br />
 
-4. 如何使用Chrome开发者工具查看 HTTP 请求or响应内容
+4. 如何使用Chrome开发者工具查看 HTTP 请求or响应内容<br />
 1 打开Chrome，右键检查 <br />
 2 打开 Network <br />
 3 输入网址 <br />
